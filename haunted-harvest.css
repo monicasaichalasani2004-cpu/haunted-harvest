@@ -589,3 +589,7 @@ body {
 .local-art-final { right:7%; bottom:16%; }
 .local-art-final img:first-child { width:68px; animation:ghostFloat 4.5s ease-in-out infinite; }
 @media (max-width:600px) { .local-art img{width:42px}.local-art-final img:first-child{width:50px} }
+:focus-visible {
+    outline: 3px solid #ffd166;
+    outline-offset: 3px;
+}
