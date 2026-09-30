@@ -1,0 +1,74 @@
+THE HAUNTED HARVEST — FINAL SUBMISSION
+======================================
+
+Project Title: The Bone Cathedral of Hollow Creek
+Team Name: Bone Cathedral Crew
+Category: Graduate
+
+TEAM MEMBERS
+------------
+1. Monica Sai Chalasani
+   GitHub: @mchalasani1
+   Primary Contribution: Scene design, story integration, CSS interactions, accessibility, and final integration
+
+2. Thirunavukkarasu Palaniappa
+   GitHub: @tpalaniappa1
+   Primary Contribution: Animation refinement, responsive testing, scene implementation, and documentation
+
+SCENE CONCEPT
+-------------
+Original Graduate Concept: The Bone Cathedral of Hollow Creek
+Chapter 1: Bone Gate / Haunted Mansion Arrival
+Chapter 2: Ossuary Forest / Witching Woods
+Chapter 3: Midnight Cathedral / Bone Titan Awakening
+
+REPOSITORY & DEPLOYMENT
+-----------------------
+GitHub Repository URL:
+PASTE FINAL GITHUB REPOSITORY URL HERE
+
+Contribution Evidence URL:
+PASTE GITHUB COMMITS / PULL REQUEST / ISSUES URL HERE
+
+Codd Server Deployment URL:
+https://codd.cs.gsu.edu/~mchalasani1/PASTE-PROJECT-FOLDER-HERE/
+
+REQUIRED FEATURES INCLUDED
+--------------------------
+- Human activity in every scene
+- Animals in every scene
+- Weather elements in every scene
+- Believable CSS movement and animation
+- Moving vehicle/object in every scene
+- Strong Halloween theme throughout
+- 3 distinct CSS-only navigable scenes
+- :target scene switching
+- :hover / :focus / :focus-visible micro-interactions
+- @keyframes ambient and character animation
+- Responsive mobile-first layout
+- CSS Grid and Flexbox
+- Required Halloween palette as CSS variables
+- Semantic HTML5 structure
+- Keyboard accessibility
+- prefers-reduced-motion support
+- External stylesheet: haunted-harvest.css
+- No JavaScript
+
+FINAL FILE CHECKLIST
+--------------------
+[✓] index.html
+[✓] haunted-harvest.css
+[✓] assets/images/
+[✓] README.md
+[✓] RUBRIC-COVERAGE.md
+[✓] submission_Template_halloween.html
+[✓] submission-links.txt
+[ ] Final GitHub repository URL inserted
+[ ] Real contribution evidence from both GitHub accounts
+[ ] Final Codd deployment URL inserted
+[ ] Live site tested on desktop and mobile
+[ ] Submitted before the instructor deadline
+
+IMPORTANT
+---------
+Do not submit this file with the placeholder URLs above. Replace them with the real GitHub, collaboration-evidence, and Codd URLs first.
