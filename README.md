@@ -70,3 +70,15 @@ Create at least one issue per teammate, commit changes from both GitHub accounts
 
 ## Deployment
 Upload the project folder to Codd and verify the live URL on both desktop and mobile.
+
+
+## Design Notes
+This version uses system fonts so the appearance stays consistent on the Codd server without depending on Google Fonts. The project is intentionally organized around three scenes and straightforward CSS animations so each team member can explain the code during review.
+
+### Main CSS ideas used
+- `:target` for switching scenes
+- `:hover` and `:focus-visible` for interaction
+- `@keyframes` for fog, vehicles, characters, lights, and pumpkins
+- CSS variables for the required Halloween colors
+- media queries for smaller screens
+- `prefers-reduced-motion` for accessibility
