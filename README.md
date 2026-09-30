@@ -11,7 +11,7 @@ The visitor crosses the Bone Gate, enters the Ossuary Forest, and reaches the Bo
 
 ## Rubric Coverage
 
-### Required Scene Elements — 18/18 target
+### Required Scene Elements
 - Human activity: trick-or-treaters and performers
 - Animals: black cat, bats, owl, crow, spider
 - Weather: layered fog, drifting clouds, lightning, moonlight
@@ -19,40 +19,40 @@ The visitor crosses the Bone Gate, enters the Ossuary Forest, and reaches the Bo
 - Moving vehicle/object: animated hearse, witch on broom, opening bone gate
 - Halloween theme: skeleton guardians, graveyard, ghosts, witch, cathedral, bats, moon, fog
 
-### Visual Design & Story — 12/12 target
+### Visual Design & Story
 - Three-chapter narrative with a clear visual progression
 - Giant skeleton sentinels and final Bone Titan as focal points
 - Layered foreground/background depth and cinematic lighting
 
-### Responsive Layout — 14/14 target
+### Responsive Layout
 - Mobile-first fallbacks and scaling
 - `clamp()` typography and responsive scene sizing
 - No intended horizontal scrolling
 
-### CSS-Only Interactivity — 14/14 target
+### CSS-Only Interactivity
 - `:target` scene navigation
 - `:hover` and `:focus-visible` gravestone reveals
 - `:checked` Bone Titan awakening interaction
 - Keyboard-accessible links, buttons, and checkbox control
 
-### Animation Quality — 14/14 target
+### Animation Quality
 - Independent timing for fog, clouds, lightning, witch, hearse, skeletons, ghosts, gate, cauldron, trees
 - Purposeful movement tied to scene storytelling
 
-### Accessibility — 10/10 target
+### Accessibility
 - Semantic sections, headings, navigation, and footer
 - Skip link and visible keyboard focus
 - Readable contrast
 - `prefers-reduced-motion` support
 - Interactive gravestones are real buttons
 
-### Code Quality — 8/8 target
+### Code Quality
 - Single required external stylesheet
 - CSS custom properties for required Halloween palette
 - Organized comments/sections and semantic markup
 - No JavaScript
 
-### GitHub Collaboration — 10/10 target
+### GitHub Collaboration
 To earn these points, create real evidence in GitHub. Suggested split:
 
 | Team Member | Suggested Meaningful Work |
@@ -82,3 +82,6 @@ This version uses system fonts so the appearance stays consistent on the Codd se
 - CSS variables for the required Halloween colors
 - media queries for smaller screens
 - `prefers-reduced-motion` for accessibility
+
+### Local assets
+The project includes simple transparent SVG artwork in `assets/images/` for a pumpkin, bat, and ghost.

@@ -15,7 +15,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--deep-night); color: var(--ghost-white); font-family: "Poppins", "Segoe UI", sans-serif; overflow-x: hidden; }
+body { margin: 0; background: var(--deep-night); color: var(--ghost-white); font-family: "Segoe UI", Arial, sans-serif; overflow-x: hidden; }
 a { color: inherit; }
 button, input, label, a { -webkit-tap-highlight-color: transparent; }
 
@@ -105,7 +105,7 @@ button, input, label, a { -webkit-tap-highlight-color: transparent; }
 .leg-l { left: 52px; }.leg-r { right: 52px; }
 
 .bone-gate { position: absolute; z-index: 5; left: 50%; bottom: 8%; transform: translateX(-50%); width: min(520px, 70vw); height: 460px; }
-.gate-arch { position: absolute; inset: 0 0 auto 0; height: 130px; border: 20px solid var(--bone); border-bottom: 0; border-radius: 260px 260px 0 0; display: grid; place-items: center; padding-top: 1.8rem; font-family: "Creepster"; font-size: clamp(1.3rem, 4vw, 2.4rem); color: var(--candle-glow); text-shadow: 0 0 10px var(--pumpkin); }
+.gate-arch { position: absolute; inset: 0 0 auto 0; height: 130px; border: 20px solid var(--bone); border-bottom: 0; border-radius: 260px 260px 0 0; display: grid; place-items: center; padding-top: 1.8rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.3rem, 4vw, 2.4rem); color: var(--candle-glow); text-shadow: 0 0 10px var(--pumpkin); }
 .gate-door { position: absolute; bottom: 0; width: 50%; height: 350px; border: 8px solid #4f3a2d; background: repeating-linear-gradient(90deg, #1a1113 0 18px, #2a171b 18px 24px); transform-origin: center top; }
 .gate-door-left { left: 0; animation: gateOpenL 7s ease-in-out infinite; }
 .gate-door-right { right: 0; animation: gateOpenR 7s ease-in-out infinite; }
@@ -179,7 +179,7 @@ button, input, label, a { -webkit-tap-highlight-color: transparent; }
 .final-card { margin-top: 5vh; max-width: 720px; }
 .summon-control { margin-top: 1rem; }
 .summon-checkbox { position: absolute; inline-size: 1px; block-size: 1px; opacity: 0; }
-.summon-label { display: inline-flex; justify-content: center; padding: 1rem 1.25rem; border: 2px solid var(--blood); border-radius: .75rem; background: linear-gradient(180deg, #250509, #080205); color: #ffd2d5; font-family: "Creepster"; letter-spacing: .08em; font-size: clamp(1rem, 3vw, 1.35rem); cursor: pointer; box-shadow: inset 0 0 20px rgba(138,7,18,.28), 0 0 20px rgba(138,7,18,.2); transition: .25s ease; }
+.summon-label { display: inline-flex; justify-content: center; padding: 1rem 1.25rem; border: 2px solid var(--blood); border-radius: .75rem; background: linear-gradient(180deg, #250509, #080205); color: #ffd2d5; font-family: Georgia, "Times New Roman", serif; letter-spacing: .08em; font-size: clamp(1rem, 3vw, 1.35rem); cursor: pointer; box-shadow: inset 0 0 20px rgba(138,7,18,.28), 0 0 20px rgba(138,7,18,.2); transition: .25s ease; }
 .summon-label:hover { transform: scale(1.04); box-shadow: inset 0 0 25px rgba(138,7,18,.45), 0 0 30px rgba(138,7,18,.35); }
 .summon-checkbox:focus-visible + .summon-label { outline: 3px solid var(--candle-glow); outline-offset: 5px; }
 
@@ -208,7 +208,7 @@ button, input, label, a { -webkit-tap-highlight-color: transparent; }
 
 .graveyard { position: absolute; z-index: 18; left: 8%; right: 8%; bottom: 14%; display: flex; align-items: flex-end; justify-content: space-around; gap: 1rem; pointer-events: auto; }
 .grave { position: relative; width: 150px; height: 130px; border: 0; border-radius: 70px 70px 12px 12px; background: linear-gradient(#47434a,#1b171e); color: var(--ghost-white); box-shadow: inset 0 0 0 4px #625b65; cursor: pointer; font: inherit; padding: 2rem .7rem .7rem; transition: transform .25s ease, box-shadow .25s ease; }
-.grave span { font-family: "Creepster"; font-size: 1.35rem; }
+.grave span { font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; }
 .grave small { position: absolute; left: 50%; bottom: calc(100% + .75rem); width: 180px; transform: translate(-50%, 10px); padding: .7rem; border-radius: .6rem; background: rgba(5,3,7,.9); border: 1px solid rgba(246,242,248,.2); opacity: 0; transition: .25s ease; pointer-events: none; }
 .grave:hover, .grave:focus-visible { transform: translateY(-8px); box-shadow: inset 0 0 0 4px #756d78, 0 0 24px rgba(246,242,248,.15); }
 .grave:hover small, .grave:focus-visible small { opacity: 1; transform: translate(-50%,0); }
@@ -579,3 +579,13 @@ body {
 .fog-back { animation-duration: 30s; }
 .fog-mid { animation-duration: 24s; }
 .fog-front { animation-duration: 19s; }
+
+
+/* Small local SVG decorations from assets/images */
+.local-art { position:absolute; z-index:17; display:flex; gap:.5rem; align-items:end; pointer-events:none; }
+.local-art img { width:56px; height:auto; opacity:.9; }
+.local-art-gate { right:7%; bottom:12%; }
+.local-art-forest { left:8%; bottom:13%; }
+.local-art-final { right:7%; bottom:16%; }
+.local-art-final img:first-child { width:68px; animation:ghostFloat 4.5s ease-in-out infinite; }
+@media (max-width:600px) { .local-art img{width:42px}.local-art-final img:first-child{width:50px} }
