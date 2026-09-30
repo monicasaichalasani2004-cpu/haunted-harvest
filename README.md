@@ -85,3 +85,10 @@ This version uses system fonts so the appearance stays consistent on the Codd se
 
 ### Local assets
 The project includes simple transparent SVG artwork in `assets/images/` for a pumpkin, bat, and ghost.
+## Testing Notes
+
+- Reviewed the three scenes and their navigation.
+- Checked the layout at desktop and mobile sizes.
+- Reviewed keyboard focus on interactive controls.
+- Checked reduced-motion support.
+- Checked for horizontal scrolling on smaller screens.
